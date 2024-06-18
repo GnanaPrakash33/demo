@@ -1,0 +1,16 @@
+2024-06-18 03:21:21,675 [main] INFO  utils.LogUtil - Executing Scenario: Calculating car loan emi with various inputs
+2024-06-18 03:21:26,300 [main] INFO  utils.LogUtil - Step Success: the_user_is_on_the_emi_calculator_page_using_chrome, PASSED
+2024-06-18 03:21:26,981 [main] INFO  utils.LogUtil - Step Success: the_user_clicks_on_the_car_loan_tab, PASSED
+2024-06-18 03:21:27,612 [main] INFO  utils.LogUtil - Step Success: the_user_enters_the_car_loan_amount, PASSED
+2024-06-18 03:21:28,168 [main] INFO  utils.LogUtil - Step Success: the_user_enters_the_loan_interest, PASSED
+2024-06-18 03:21:28,864 [main] INFO  utils.LogUtil - Step Success: the_user_enters_the_loan_tenure_year, PASSED
+2024-06-18 03:21:30,276 [main] INFO  utils.LogUtil - Step Success: I_verify_and_display_the_emi_details, PASSED
+2024-06-18 03:21:31,026 [main] INFO  utils.LogUtil - Step Success: the_user_navigates_to_home_loan_calculator_page, PASSED
+2024-06-18 03:21:31,735 [main] INFO  utils.LogUtil - Executing Scenario: Calculating car loan emi with various inputs
+2024-06-18 03:21:36,464 [main] INFO  utils.LogUtil - Step Success: the_user_is_on_the_emi_calculator_page_using_edge, PASSED
+2024-06-18 03:21:37,214 [main] INFO  utils.LogUtil - Step Success: the_user_clicks_on_the_car_loan_tab, PASSED
+2024-06-18 03:21:37,864 [main] INFO  utils.LogUtil - Step Success: the_user_enters_the_car_loan_amount, PASSED
+2024-06-18 03:21:38,485 [main] INFO  utils.LogUtil - Step Success: the_user_enters_the_loan_interest, PASSED
+2024-06-18 03:21:39,352 [main] INFO  utils.LogUtil - Step Success: the_user_enters_the_loan_tenure_year, PASSED
+2024-06-18 03:21:40,758 [main] INFO  utils.LogUtil - Step Success: I_verify_and_display_the_emi_details, PASSED
+2024-06-18 03:21:42,950 [main] INFO  utils.LogUtil - Step Success: the_user_navigates_to_home_loan_calculator_page, PASSED

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.runners.TestRunner" time="39.863" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\shakt\eclipse-workspace\FindingInterestHackathon\target\test-classes;C:\Users\shakt\eclipse-workspace\FindingInterestHackathon\target\classes;C:\Users\shakt\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\shakt\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\shakt\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\shakt\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shakt\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shakt\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\shakt\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\shakt\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\shakt\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\shakt\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\shakt\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\shakt\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\shakt\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\shakt\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\shakt\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\shakt\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\shakt\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\shakt\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\shakt\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\shakt\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\shakt\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\shakt\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\shakt\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\shakt\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\shakt\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\shakt\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\shakt\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\shakt\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\shakt\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\shakt\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\shakt\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\shakt\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\shakt\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\shakt\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\shakt\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\shakt\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\shakt\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\shakt\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\query\12.1.2\query-12.1.2.jar;C:\Users\shakt\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\shakt\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\shakt\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\shakt\AppData\Local\Temp\surefire7789336937195400455\surefirebooter-20240617065228263_3.jar C:\Users\shakt\AppData\Local\Temp\surefire7789336937195400455 2024-06-17T06-52-28_030-jvmRun1 surefire-20240617065228263_1tmp surefire_0-20240617065228263_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\shakt\eclipse-workspace\FindingInterestHackathon\target\test-classes;C:\Users\shakt\eclipse-workspace\FindingInterestHackathon\target\classes;C:\Users\shakt\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\shakt\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\shakt\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\shakt\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shakt\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shakt\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\shakt\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\shakt\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\shakt\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\shakt\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\shakt\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\shakt\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\shakt\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\shakt\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\shakt\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\shakt\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\shakt\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\shakt\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\shakt\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\shakt\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\shakt\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\shakt\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\shakt\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\shakt\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\shakt\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\shakt\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\shakt\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\shakt\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\shakt\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\shakt\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\shakt\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\shakt\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\shakt\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\shakt\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\shakt\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\shakt\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\shakt\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\shakt\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\shakt\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\shakt\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\shakt\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\query\12.1.2\query-12.1.2.jar;C:\Users\shakt\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\shakt\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\shakt\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\shakt\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\shakt\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shakt"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\shakt\eclipse-workspace\FindingInterestHackathon"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shakt\AppData\Local\Temp\surefire7789336937195400455\surefirebooter-20240617065228263_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="shakt"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shakt\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shakt\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="C:\Users\shakt\eclipse-workspace\FindingInterestHackathon"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-18.0.2/bin/server;C:/Program Files/Java/jdk-18.0.2/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Java\graalvm-ce-java19-22.3.0\bin;%JAVA_HOME%\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Inno Setup 6;C:\Program Files\dotnet\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shakt\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\shakt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shakt\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin;;C:\Users\shakt\AppData\Local\GitHubDesktop\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.2\bin;;C:\Program Files\JetBrains\WebStorm 2023.3.4\bin;;C:\Program Files\JetBrains\CLion 2024.1.1\bin;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="Calculating car loan emi with various inputs" classname="Calculate Car Loan Emi" time="8.493">
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: Calculating car loan emi with various inputs &amp#27;[90m# src/test/resources/features/car_emi_calculator.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the emi_calculator page using chrome&amp#27;[0m    &amp#27;[90m# cucumber.stepDefinitions.CalculateCarLoanEmiSteps.the_user_is_on_the_emi_calculator_page_using_chrome()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks on the car_loan tab&amp#27;[0m                     &amp#27;[90m# cucumber.stepDefinitions.CalculateCarLoanEmiSteps.the_user_clicks_on_the_car_loan_tab()&amp#27;[0m
+
+    Embedding clickCarLoanTab_chrome.png [image/png 274184 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters the car loan amount &amp#27;[0m&amp#27;[32m&amp#27;[1m1500000&amp#27;[0m             &amp#27;[90m# cucumber.stepDefinitions.CalculateCarLoanEmiSteps.the_user_enters_the_car_loan_amount(java.lang.Integer)&amp#27;[0m
+
+    Embedding setCarLoanAmount_chrome.png [image/png 276116 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters the car loan interest &amp#27;[0m&amp#27;[32m&amp#27;[1m9.5&amp#27;[0m               &amp#27;[90m# cucumber.stepDefinitions.CalculateCarLoanEmiSteps.the_user_enters_the_loan_interest(java.lang.Float)&amp#27;[0m
+
+    Embedding setCarLoanInterestRate_chrome.png [image/png 263544 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters the car loan tenure &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m year&amp#27;[0m              &amp#27;[90m# cucumber.stepDefinitions.CalculateCarLoanEmiSteps.the_user_enters_the_loan_tenure_year(java.lang.Integer)&amp#27;[0m
+
+    Embedding setCarLoanTenure_chrome.png [image/png 290717 bytes]
+
+
+  Car Loan EMI Details: 
+  Monthly EMI Amount: 1,31,525
+  Total Interest Amount: 78,303
+  Total Principal Amount: 15,78,303
+  First Month Interest Amount: 11875
+  First Month Principal Amount: 119650
+
+  Calculated Monthly EMI Amount: 131524
+  Car Loan EMI Details Verified and Validated.
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify and display the car emi details&amp#27;[0m                &amp#27;[90m# cucumber.stepDefinitions.CalculateCarLoanEmiSteps.I_verify_and_display_the_emi_details()&amp#27;[0m
+
+    Embedding getEmiDetails_chrome.png [image/png 329321 bytes]
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user navigates to home_loan_calculator page&amp#27;[0m          &amp#27;[90m# cucumber.stepDefinitions.CalculateCarLoanEmiSteps.the_user_navigates_to_home_loan_calculator_page()&amp#27;[0m
+
+    Embedding clickHomeLoanEmiCalculator_chrome.png [image/png 390620 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Calculating detailed home loan information with various inputs" classname="Calculate Detailed Home Loan Information Annually" time="9.761">
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Calculating detailed home loan information with various inputs     &amp#27;[90m# src/test/resources/features/home_loan_calculator.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the home_loan_calculator page using chrome&amp#27;[0m                    &amp#27;[90m# cucumber.stepDefinitions.CalculateHomeLoanEmiSteps.the_user_is_on_the_home_loan_calculator_page_using_chrome()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters the home value &amp#27;[0m&amp#27;[32m&amp#27;[1m15000000&amp#27;[0m                                       &amp#27;[90m# cucumber.stepDefinitions.CalculateHomeLoanEmiSteps.the_user_enters_the_home_value(java.lang.Integer)&amp#27;[0m
+
+    Embedding setHomeValue_chrome.png [image/png 287651 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters the down payment &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                            &amp#27;[90m# cucumber.stepDefinitions.CalculateHomeLoanEmiSteps.the_user_enters_the_down_payment(java.lang.Float)&amp#27;[0m
+
+    Embedding setDownPaymentPercentage_chrome.png [image/png 287033 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters the home loan interest &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m                                      &amp#27;[90m# cucumber.stepDefinitions.CalculateHomeLoanEmiSteps.the_user_enters_the_interest_rate(java.lang.Float)&amp#27;[0m
+
+    Embedding setHomeLoanInterestRate_chrome.png [image/png 182973 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters the home loan tenure &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m year&amp#27;[0m                                  &amp#27;[90m# cucumber.stepDefinitions.CalculateHomeLoanEmiSteps.the_user_enters_the_loan_tenure_year(java.lang.Integer)&amp#27;[0m
+
+    Embedding setHomeLoanTenure_chrome.png [image/png 180818 bytes]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify and store the generated year_on_year loan details in an excel format&amp#27;[0m &amp#27;[90m# cucumber.stepDefinitions.CalculateHomeLoanEmiSteps.I_store_the_generated_year_on_year_loan_details_in_an_excel_format()&amp#27;[0m
+
+    Embedding getYearOnYearTableData_chrome.png [image/png 354809 bytes]
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user navigates to the loan_calculator page&amp#27;[0m                                 &amp#27;[90m# cucumber.stepDefinitions.CalculateHomeLoanEmiSteps.the_user_navigates_to_loan_calculator_page()&amp#27;[0m
+
+    Embedding clickLoanCalculator_chrome.png [image/png 378714 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="Performing UI tests on various loan tools" classname="Calculate Loan Information" time="19.395">
+    <system-out><![CDATA[
+@regression2
+Scenario Outline: Performing UI tests on various loan tools                  &amp#27;[90m# src/test/resources/features/loan_calculator.feature:56&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the loan_calculator page using chrome&amp#27;[0m                 &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_is_on_the_loan_calculator_page_using_chrome()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks on the emi_calculator tab&amp#27;[0m                              &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_clicks_on_the_emi_calculator_tab()&amp#27;[0m
+
+    Embedding clickEmiCalculatorTab_chrome.png [image/png 291442 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on emi_calculator tab enters the loan amount &amp#27;[0m&amp#27;[32m&amp#27;[1m7000000&amp#27;[0m         &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_emi_calculator_tab_enters_the_loan_amount(java.lang.Integer)&amp#27;[0m
+
+    Embedding setLoanAmountOnInput_chrome.png [image/png 291454 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on emi_calculator tab enters the loan interest &amp#27;[0m&amp#27;[32m&amp#27;[1m12.5&amp#27;[0m          &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_emi_calculator_tab_enters_the_loan_interest(java.lang.Float)&amp#27;[0m
+
+    Embedding setLoanInterestOnInput_chrome.png [image/png 217685 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on emi_calculator tab enters the loan tenure &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m year&amp#27;[0m         &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_emi_calculator_tab_enters_the_loan_tenure_year(java.lang.Integer)&amp#27;[0m
+
+    Embedding setLoanTenureOnInput_chrome.png [image/png 218130 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on emi_calculator tab enters the loan fees &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_emi_calculator_tab_enters_the_loan_fees(java.lang.Integer)&amp#27;[0m
+
+    Embedding setLoanFeesOnInput_chrome.png [image/png 205458 bytes]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan amount ui on emi_calculator tab&amp#27;[0m                     &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_amount_ui_on_emi_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan interest ui on emi_calculator tab&amp#27;[0m                   &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_interest_ui_on_emi_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan tenure year ui on emi_calculator tab&amp#27;[0m                &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_year_loan_tenure_ui_on_emi_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan fees ui on emi_calculator tab&amp#27;[0m                       &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_fees_ui_on_emi_calculator_tab()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user clicks on the loan_amount_calculator tab&amp#27;[0m                    &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_clicks_on_the_loan_amount_calculator_tab()&amp#27;[0m
+
+    Embedding clickLoanAmountCalculatorTab_chrome.png [image/png 290504 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_amount_calculator tab enters the emi amount &amp#27;[0m&amp#27;[32m&amp#27;[1m90000&amp#27;[0m    &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_amount_calculator_tab_enters_the_emi_amount(java.lang.Integer)&amp#27;[0m
+
+    Embedding setEmiOnInput_chrome.png [image/png 288657 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_amount_calculator tab enters the loan interest &amp#27;[0m&amp#27;[32m&amp#27;[1m12.5&amp#27;[0m  &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_amount_calculator_tab_enters_the_loan_interest(java.lang.Float)&amp#27;[0m
+
+    Embedding setLoanInterestOnInput_chrome.png [image/png 207076 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_amount_calculator tab enters the loan tenure &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m year&amp#27;[0m &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_amount_calculator_tab_enters_the_loan_tenure_year(java.lang.Integer)&amp#27;[0m
+
+    Embedding setLoanTenureOnInput_chrome.png [image/png 204653 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_amount_calculator tab enters the loan fees &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m         &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_amount_calculator_tab_enters_the_loan_fees(java.lang.Integer)&amp#27;[0m
+
+    Embedding setLoanFeesOnInput_chrome.png [image/png 211572 bytes]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan emi ui on loan_amount_calculator tab&amp#27;[0m                &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_emi_ui_on_loan_amount_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan interest ui on loan_amount_calculator tab&amp#27;[0m           &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_interest_ui_on_loan_amount_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan tenure year ui on loan_amount_calculator tab&amp#27;[0m        &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_year_loan_tenure_ui_on_loan_amount_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan fees ui on loan_amount_calculator tab&amp#27;[0m               &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_fees_ui_on_loan_amount_calculator_tab()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user clicks on the loan_tenure_calculator tab&amp#27;[0m                    &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_clicks_on_the_loan_tenure_calculator_tab()&amp#27;[0m
+
+    Embedding clickLoanTenureCalculatorTab_chrome.png [image/png 291586 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_tenure_calculator tab enters the loan amount &amp#27;[0m&amp#27;[32m&amp#27;[1m7000000&amp#27;[0m &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_tenure_calculator_tab_enters_the_loan_amount(java.lang.Integer)&amp#27;[0m
+
+    Embedding setLoanAmountOnInput_chrome.png [image/png 289226 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_tenure_calculator tab enters the emi amount &amp#27;[0m&amp#27;[32m&amp#27;[1m90000&amp#27;[0m    &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_tenure_calculator_tab_enters_the_emi_amount(java.lang.Integer)&amp#27;[0m
+
+    Embedding setEmiOnInput_chrome.png [image/png 214148 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_tenure_calculator tab enters the loan interest &amp#27;[0m&amp#27;[32m&amp#27;[1m12.5&amp#27;[0m  &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_tenure_calculator_tab_enters_the_loan_interest(java.lang.Float)&amp#27;[0m
+
+    Embedding setLoanInterestOnInput_chrome.png [image/png 215327 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user on loan_tenure_calculator tab enters the loan fees &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m         &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.the_user_on_loan_tenure_calculator_tab_enters_the_loan_fees(java.lang.Integer)&amp#27;[0m
+
+    Embedding setLoanFeesOnInput_chrome.png [image/png 202625 bytes]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan amount ui on loan_tenure_calculator tab&amp#27;[0m             &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_amount_ui_on_loan_tenure_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan emi ui on loan_tenure_calculator tab&amp#27;[0m                &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_emi_ui_on_loan_tenure_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan interest ui on loan_tenure_calculator tab&amp#27;[0m           &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_interest_ui_on_loan_tenure_calculator_tab()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify the loan fees ui on loan_tenure_calculator tab&amp#27;[0m               &amp#27;[90m# cucumber.stepDefinitions.PerformUITestsOnLoanCalculatorSteps.I_verify_the_loan_fees_ui_on_loan_tenure_calculator_tab()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
